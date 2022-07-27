@@ -1,5 +1,5 @@
 :cyclone:
-Hiya ^_^/
+Hi
 :cyclone:
 
 Yes, I made a pointless dancing penguin website...
