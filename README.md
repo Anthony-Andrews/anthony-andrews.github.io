@@ -2,5 +2,8 @@
 Hi
 :cyclone:
 
-Yes, I made a pointless dancing penguin website...
+this is where i pretend to know how to code...
+
+
+
 https://penguindancing.github.io
