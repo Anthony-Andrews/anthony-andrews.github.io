@@ -2,10 +2,8 @@
 Hi
 :cyclone:
 
-this is where i pretend to know how to code...
+check out my repos for my projects (website coming soon™)
 
-
-My Projects: (UNDER CONSTRUCTION)
-https://anthony-andrews.github.io
+https://anthony-andrews.github.io (UNDER CONSTRUCTION)
 
 Made on 🌎 with 💻 by: 🧑‍💻
