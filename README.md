@@ -8,4 +8,7 @@ check out my repos for my projects!
 
 Made on 🌎 with 💻 by: 🧑‍💻
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/insolitum/count.svg" />
+</p>
