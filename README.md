@@ -6,7 +6,9 @@ I'm a novice programmer familiar with C and Python tryna write code that dosen't
 
 check out my repos for my projects!
 
+<!--
 ~~https://anthony-andrews.github.io~~ (website coming soon™)
+-->
 
 Made on 🌎 with 💻 by: 🧑‍💻
 
