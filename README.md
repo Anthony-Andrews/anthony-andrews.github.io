@@ -1,8 +1,6 @@
 :cyclone:
-Hi
+Heyo
 :cyclone:
-
-I'm a novice programmer familiar with C and Python tryna write code that dosen't break :D
 
 check out my repos for my projects!
 
