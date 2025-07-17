@@ -30,6 +30,9 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+.sh
+
+# WSL Zone Identifier (running Jekyll on WSL)
 .Identifier
 
 # Komodo
