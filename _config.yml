@@ -28,21 +28,27 @@ sass:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+ga_analytics: G-P9JFVGV791 #replace later with self hosted?
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Anthony Andrews
+  url: anthony-andrews.github.io
+  email: anthony.r.andrews@gmail.com
 
 # Custom vars
 version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
-    url: /archive
+  - title: Projects
+    url: /projects
 
   - title: About
     url: /about
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
