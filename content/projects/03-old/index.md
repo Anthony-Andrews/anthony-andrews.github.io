@@ -5,4 +5,4 @@ tags:
   - project
 ---
 
-Old projects often with little or no documentation.
+Old projects with little or no documentation.

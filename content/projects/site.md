@@ -30,4 +30,4 @@ I'm also intrigued by the viability of self-hosting it as a means to learn and [
 - **CMS platforms** - often not free, not customizable, not as fun
 - **From scratch** - more boilerplate, tedious to maintain
 
-**Source code:** [Github](https://github.com/Anthony-Andrews/anthony-andrews.github.io) feel free to PR changes.
+[[source code]](https://github.com/Anthony-Andrews/anthony-andrews.github.io) feel free to PR changes.

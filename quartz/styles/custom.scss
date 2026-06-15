@@ -83,6 +83,33 @@ html[saved-theme="dark"] body[data-slug] .page > div#quartz-body footer {
   border-color: var(--graph-border) !important;
 }
 
+// Graph icon: replicate styleGraphIcon() from the removed terminal-cursor plugin.
+// That function injected this CSS at runtime; it lives here now so it applies
+// in all builds regardless of which plugins are active.
+.graph > .graph-outer > button.global-graph-icon {
+  opacity: 0 !important;
+  transition: opacity 0.2s !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background: var(--light) !important;
+  border: 1px solid var(--gray, #a3a3a3) !important;
+  border-radius: 5px !important;
+}
+
+.graph > .graph-outer > button.global-graph-icon > svg {
+  display: block !important;
+  fill: var(--light) !important;
+  filter: contrast(0.3) !important;
+}
+
+.graph > .graph-outer:hover > button.global-graph-icon {
+  opacity: 1 !important;
+}
+
+.graph > .graph-outer > button.global-graph-icon:hover {
+  border-color: var(--secondary) !important;
+}
+
 // ─── Toolbar buttons (darkmode + reader mode) ─────────────────────────────────
 // Icons use mask-image + background:var(--quartz-icon-color) via Shadeflow.
 // brightness(0) = pure black; brightness(2) pushes muted gray to white.
@@ -201,12 +228,7 @@ pre:has(> .clipboard-button:hover)::after {
 }
 
 .page-title::before {
-  content: ">";
-  color: #f4a261;
-  font-family: inherit;
-  font-size: 0.9em;
-  font-weight: 600;
-  vertical-align: middle;
+  content: none;
 }
 
 .terminal-cursor {
@@ -327,26 +349,22 @@ img, video {
 }
 
 // ─── Explorer active page/folder highlight ────────────────────────────────────
-.explorer-content ul li > a.active {
+html[saved-theme="light"] .explorer-content ul li > a.active,
+html[saved-theme="light"] .explorer-content ul li > a.is-active,
+html[saved-theme="light"] .explorer-content a.folder-button.active,
+html[saved-theme="light"] .explorer-content button.folder-button.active {
   color: #f4a261 !important;
   opacity: 1 !important;
   font-weight: 600 !important;
 }
 
-html[saved-theme="dark"] .explorer-content ul li > a.active {
-  color: #4caf50 !important;
-}
-
-.explorer-content a.folder-button.active,
-.explorer-content button.folder-button.active {
-  color: #f4a261 !important;
-  opacity: 1 !important;
-  font-weight: 600 !important;
-}
-
+html[saved-theme="dark"] .explorer-content ul li > a.active,
+html[saved-theme="dark"] .explorer-content ul li > a.is-active,
 html[saved-theme="dark"] .explorer-content a.folder-button.active,
 html[saved-theme="dark"] .explorer-content button.folder-button.active {
   color: #4caf50 !important;
+  opacity: 1 !important;
+  font-weight: 600 !important;
 }
 
 // ─── Explorer and contacts item fonts ─────────────────────────────────────────
@@ -358,6 +376,19 @@ html[saved-theme="dark"] .explorer-content button.folder-button.active {
 .folder-container div > button span,
 .contacts-list li a {
   font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+}
+
+html[saved-theme="light"] .explorer-content ul li > a:not(.active),
+html[saved-theme="light"] .folder-container div > a:not(.active),
+html[saved-theme="light"] .folder-container div > button:not(.active) span,
+html[saved-theme="light"] .contacts-list li a,
+html[saved-theme="dark"] .explorer-content ul li > a:not(.active),
+html[saved-theme="dark"] .folder-container div > a:not(.active),
+html[saved-theme="dark"] .folder-container div > button:not(.active) span,
+html[saved-theme="dark"] .contacts-list li a {
+  color: var(--darkgray) !important;
+  opacity: 1 !important;
+  font-weight: normal !important;
 }
 
 // ─── Light mode body text color ───────────────────────────────────────────────

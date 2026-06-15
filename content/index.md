@@ -1,6 +1,6 @@
 ---
 title: Anthony Andrews
-description: Hobbyist by all means.
+description: A Portfolio of my Projects.
 ---
 
 <img src="./portrait_360x360.png" alt="me" style="width: min(180px, 40%);" />
@@ -30,7 +30,7 @@ This site serves as documentation of projects and notes.
 
 ---
 
-<a href="projects/03-old/"><img src="./fpv.jpg" alt="FPV Drone" style="width: min(300px, 40%);" /></a>
+<a href="projects/03-old/"><img src="./fpv.JPG" alt="FPV Drone" style="width: min(300px, 40%);" /></a>
 <a href="projects/03-old/"><img src="./cnc.jpeg" alt="DIY CNC router" style="width: min(300px, 40%);" /></a>
 
 ### **[Miscellaneous](projects/)**

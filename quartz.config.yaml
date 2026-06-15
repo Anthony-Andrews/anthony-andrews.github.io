@@ -204,8 +204,6 @@ plugins:
     layout:
       position: left
       priority: 10
-  - source: ./local-plugins/terminal-cursor
-    enabled: true
   - source: ./local-plugins/file-icon
     enabled: true
   - source: github:quartz-community/darkmode

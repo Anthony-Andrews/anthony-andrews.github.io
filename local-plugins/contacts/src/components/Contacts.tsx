@@ -47,7 +47,7 @@ const Contacts: QuartzComponentConstructor = () => {
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/PLACEHOLDER" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/anthony-r-andrews/" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </li>
