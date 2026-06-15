@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Anthony Andrews
-  pageTitleSuffix: ""
+  pageTitleSuffix: " | Anthony Andrews"
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: null
   locale: en-US
-  baseUrl: localhost:8080
+  baseUrl: aandrews.io
   ignorePatterns:
     - private
     - templates

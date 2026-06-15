@@ -537,6 +537,22 @@ li:has(> a.internal.tag-link[href$="/file-icon"]) {
   display: none !important;
 }
 
+// ─── Mobile: contacts + explorer drawer fixes ─────────────────────────────────
+// The contacts plugin has no mobile=false guard so it appears in the mobile
+// header row, overlapping the toolbar buttons. Hide it there — contact links
+// are already in the page body (index.md).
+@media all and (max-width: 800px) {
+  .sidebar.left .contacts {
+    display: none !important;
+  }
+
+  // The explorer drawer has padding-top:4rem but the hamburger button sits at
+  // z-index:101 and can overlap the first item. Push content down a bit more.
+  .explorer .explorer-content {
+    padding-top: 5.5rem !important;
+  }
+}
+
 // ─── Explorer collapse clipping fix (desktop) ─────────────────────────────────
 // The plugin collapses via overflow-y:hidden + flex-basis which also clips h2
 // horizontally in some browser/stacking contexts. Replace with display:none on

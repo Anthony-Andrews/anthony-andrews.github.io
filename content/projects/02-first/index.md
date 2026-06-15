@@ -1,6 +1,6 @@
 ---
 title: FIRST robotics
-description: first
+description: Robots I designed and built for the FIRST Robotics Competition
 tags:
   - project
   - FIRST robotics
@@ -12,14 +12,14 @@ tags:
 <figcaption>our 2025 offseason robot competing at Chezy Champs</figcaption>
 </figure>
 
-As part of the [FIRST](https://en.wikipedia.org/wiki/FIRST_Robotics_Competition) robotics competition, I work in a team and/or lead the design of several robots in 3 months under a changing set of standardized global rules to complete different tasks.
+As part of the [FIRST](https://en.wikipedia.org/wiki/FIRST_Robotics_Competition) robotics competition, I worked in a team and/or led the design of several robots each in 3 months under a changing set of standardized global rules to complete different tasks.
 
 ---
 
 <img src="./DSC08408.jpg" alt="v0" style="width: min(398px, 100%);" />
 
 ## 2023 Robot
-For the game Charged Up, robots would pick up cones and inflated balls and place them in a grid using different arms/ elevators and grippers.
+For the game Charged Up, robots would pick up cones and inflated balls and place them in a grid using different arms, elevators, and grippers.
 
 - Designed weight reduced pocketed aluminium plates
 - Electronics cover and assorted minor 3d prints
@@ -29,12 +29,12 @@ For the game Charged Up, robots would pick up cones and inflated balls and place
 <img src="./4TAP7tl.jpeg" alt="v0" style="width: min(398px, 100%);" />
 
 ## 2024 Robot
-For the game Cresendo, robots would pick up and shoot foam discs into a goal.
+For the game Crescendo, robots would pick up and shoot foam discs into a goal.
 
 - Designed the chassis and all the electronics mounting
 - Designed 4 camera mounts for ~240 degree FOV
 - Designed all 3d printed components
-- Did some wiring and CANbus reliability checks
+- Performed all CAN bus wiring and reliability validation
 - Developed basic object detection camera hardware
 
 ---
@@ -42,14 +42,14 @@ For the game Cresendo, robots would pick up and shoot foam discs into a goal.
 <img src="./IMG_1711.jpg" alt="v0" style="width: min(398px, 100%);" />
 
 ## 2024 Offseason Robot
-Same Cresendo game, a simpler (non-turreted), lighter, faster, robot with key improvements
+Same Crescendo game, a simpler (non-turreted), lighter, faster, robot with key improvements
 
-- Lead design and electronics subteams
+- Led design and electronics subteams
 - Designed chassis, shooter, pivot, intake, indexer
 - Designed all 3d printed components
-- Did entirety of CANbus wiring implementing a redesigned topology and switched to Molex SL for better reliability and debuggability
+- Designed and built the complete CAN bus wiring harness, implementing a redesigned topology and switching to Molex SL for better reliability and debuggability
 
-The intake, shooter and wiring were the key areas improved over the onseason robot implementing *lots* of prototype iteration and lessons learnt throughout the season. We carried this improved electronics system into future robot designs.
+The intake, shooter, and wiring were the key areas improved over the on-season robot, implementing *lots* of prototype iteration and lessons learned throughout the season. We carried this improved electronics system into future robot designs.
 
 ---
 
@@ -58,11 +58,11 @@ The intake, shooter and wiring were the key areas improved over the onseason rob
 ## 2025 Robot
 Reefscape revolved around picking and placing 4.5" PVC pipe segments onto pegs and removing inflated balls into a net. Finally robots had to latch on to a low handing steel cage and lift themselves off the ground.
 
-- Lead design and electronics subteams
+- Led design and electronics subteams
 - Designed the single-stage elevator, pivot, end effector, funnel, intake/climber, chassis
 - Designed camera mounts
 - Designed all 3d printed components
-- Did CANbus, etc, wiring
+- Designed and built the complete CAN bus wiring harness
 - Did not iterate nearly enough..
 
 While reliable, this robot archetype had a few key shortcomings that ended up costing us all of which were driven by a lack of sufficient prototyping.
@@ -72,14 +72,14 @@ While reliable, this robot archetype had a few key shortcomings that ended up co
 <img src="./IMG_3612.JPG" alt="v0" style="width: min(398px, 100%);" />
 
 ## [2025 Offseason Robot](#chezy-video)
-Same game, a completely different (demandingly complex) robot archectype, development took far longer but the end result was pretty cool.
+Same game, a completely different (exceptionally complex) robot archetype — development took far longer, but the end result was the most technically ambitious robot we had built.
 
-- Lead design and electronics subteams
-- Delegated a most of design
+- Led design and electronics subteams
+- Delegated most of the design
 - Designed slip-ring based pivot
 - Designed intake and 2-stage elevator
 
-This robot had far more collaboration as a result of the complexity demanded, software tuning and drive practice time were ultimately very short. Although the robot itself never reached its full potential, we maximized the lessons learnt especially around design-scope, delegation, time-management, etc.
+This robot had far more collaboration as a result of the complexity demanded, software tuning and drive practice time were ultimately very short. Although the robot itself never reached its full potential, we maximized the lessons learned — especially around design scope, delegation, and time management.
 
 ---
 
@@ -88,12 +88,12 @@ This robot had far more collaboration as a result of the complexity demanded, so
 ## 2026 Robot
 In Rebuilt, robots intake and shoot as high a volume of foam balls into a goal. A steel tower can then be climed on for extra points but was ultimately strategically useless. Throughput is key.
 
-- Lead electronics substeam and [vision hardware development](/projects/01-lux/)
+- Led electronics subteam and [vision hardware development](/projects/01-lux/)
 - Developed 3d-printed compact energy-chain cable carrier for the robot turret
-- Tried and failed at developing a usable L3 climber
+- Prototyped and iterated an L3 climber (deprioritized due to time constraints)
 - Designed eight camera mounts for 360 degree vision and object detection
 - Briefly iterated and abandoned a dye-rotor indexer
-- Re-designed chassis electronics mounting layout to allow for higher flexibility, consolidate discrete power distrobution PCBs, and compactify things overall.
+- Re-designed chassis electronics mounting layout to allow for higher flexibility, consolidate discrete power distribution PCBs, and reduce the overall footprint.
 
 <figure id="2026 robot">
 <video src="./IMG_9944.mp4" controls disablepictureinpicture style="width: min(400px, 50%); display: block;"></video>
@@ -102,4 +102,4 @@ In Rebuilt, robots intake and shoot as high a volume of foam balls into a goal. 
 
 ---
 
-FIRST taught me invaluable lessons about project/ time mangement, how to be a good leader, executing reliabily, and working with people; more invaluable than any specific technical skill learnt.
+FIRST taught me invaluable lessons about project and time management, how to be a good leader, executing reliably, and working with people — more valuable than any specific technical skill learned.

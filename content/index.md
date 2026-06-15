@@ -1,5 +1,5 @@
 ---
-title: Anthony Andrews
+title: Portfolio
 description: A Portfolio of my Projects.
 ---
 
@@ -7,8 +7,8 @@ description: A Portfolio of my Projects.
 
 # About:
 
-Foothill-De Anza student who enjoy working with custom embedded electronics, UAVs and homelabs as a hobby. I am largely self-taught and inspired by others.
-I strive for elegance in design, maintainability, and optomization in every project I undertake.
+I'm Anthony Andrews, a Foothill-De Anza student who enjoys working with custom embedded electronics, UAVs, and homelabs.
+I strive for elegance in design, maintainability, and optimization in every project I undertake.
 
 This site serves as documentation of projects and notes.
 
@@ -34,7 +34,7 @@ This site serves as documentation of projects and notes.
 <a href="projects/03-old/"><img src="./cnc.jpeg" alt="DIY CNC router" style="width: min(300px, 40%);" /></a>
 
 ### **[Miscellaneous](projects/)**
-<span style="margin-top: -0.75rem; display: block;">self-built CNCs, ebikes, etc</span>
+<span style="margin-top: -0.75rem; display: block;">self-built CNCs, e-bikes, etc.</span>
 
 ---
 

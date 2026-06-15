@@ -15,9 +15,9 @@ I'm also intrigued by the viability of self-hosting it as a means to learn and [
 
 ## Goals:
 
-- **Extensible** - praticality, make adding projects convenient
+- **Extensible** - practicality, make adding projects convenient
 - **Maintainable** - focus on the projects, not maintaining a flashy site
-- **Minimal** - minimize dependancies, keep things simple enough to debug, practical enough to stay useful
+- **Minimal** - minimize dependencies, keep things simple enough to debug, practical enough to stay useful
 
 ## Technical breakdown:
 
