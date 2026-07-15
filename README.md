@@ -1,3 +1,5 @@
-### portfolio based on [quartz](https://quartz.jzhao.xyz/)
+### Portfolio based on [quartz](https://quartz.jzhao.xyz/)
 
-[aandrews.io](https://aandrews.io)
+Website: [aandrews.io](https://aandrews.io)
+
+build with ```npx quartz build --serve``` view at http://localhost:8080

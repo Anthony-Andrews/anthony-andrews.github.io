@@ -57,7 +57,7 @@ Real-world power draw is 9 watts average, 11 watts max.
 
 <figure style="text-align: center;">
 <img src="./Screenshot 2025-12-31 003908.png" alt="CAD of the camera" style="width: min(398px, 100%);" />
-<figcaption>really proud of this one</figcaption>
+<figcaption>layer 1 of 4</figcaption>
 </figure>
 
 
